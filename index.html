@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal</title>
+  </head>
+  <body>
+    <header><h1>Personal Details</h1></header>
+    <div class="container">
+      <div data-testid="slackUserName">
+        <h2>Oluwabusayomi Iyekolo</h2>
+      </div>
+      <div data-testid="slackDisplayImage">
+        <img
+          src="IMG-20230908-WA0043.jpg"
+          alt="Oluwabusayomi Iyekolo"
+          height="350vh"
+          width="250vh"
+        />
+      </div>
+      <div data-testid="currentDayOfTheWeek">
+        <strong>Day of the Week:</strong>
+        <span id="currentDay"></span>
+      </div>
+      <div data-testid="currentUTCTime">
+        <strong>UTC Time:</strong>
+        <span id="currentTime"></span>
+      </div>
+      <div data-testid="myTrack">
+        <strong>Track:</strong>
+        <span>Front-end Track</span>
+      </div>
+    </div>
+
+    <footer data-testid="githubURL">
+      <a href="http://">Github</a>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
